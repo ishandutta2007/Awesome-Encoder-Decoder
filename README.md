@@ -68,3 +68,17 @@ The **Encoder-Decoder architecture** is a foundational blueprint in AI designed 
 #### Variational Autoencoders (VAEs)
 * **Mechanism:** The encoder compresses input into a continuous probability distribution. The decoder samples from this distribution to reconstruct or generate variations.
 * **Impact:** Critical component in Latent Diffusion Models (e.g., Stable Diffusion) for image compression.
+
+---
+
+## 📈 Star History
+
+<div align="center">
+   <a href="https://www.star-history.com/#ishandutta2007/Awesome-Encoder-Decoder&Date">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=ishandutta2007/Awesome-Encoder-Decoder&type=Date&theme=dark" />
+      <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=ishandutta2007/Awesome-Encoder-Decoder&type=Date" />
+      <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=ishandutta2007/Awesome-Encoder-Decoder&type=Date" />
+    </picture>
+   </a>
+</div>
