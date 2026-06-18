@@ -1,0 +1,8 @@
+<svg width="400" height="200" xmlns="http://www.w3.org/2000/svg">
+  <ellipse cx="60" cy="100" rx="50" ry="30" fill="#16A085" />
+  <text x="30" y="105" fill="white" font-family="Arial" font-size="12">Encoder</text>
+  <circle cx="200" cy="100" r="20" fill="#F39C12" />
+  <text x="185" y="105" fill="black" font-family="Arial" font-size="10">Latent</text>
+  <ellipse cx="340" cy="100" rx="50" ry="30" fill="#2C3E50" />
+  <text x="310" y="105" fill="white" font-family="Arial" font-size="12">Decoder</text>
+</svg>

@@ -1,0 +1,7 @@
+<svg width="400" height="200" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="10,50 110,80 110,120 10,150" fill="#EA4335" />
+  <text x="30" y="105" fill="white" font-family="Arial" font-size="14">Encoder</text>
+  <path d="M 110 100 L 290 100" stroke="black" stroke-dasharray="5,5" />
+  <polygon points="290,80 390,50 390,150 290,120" fill="#FBBC05" />
+  <text x="310" y="105" fill="black" font-family="Arial" font-size="14">Decoder</text>
+</svg>
