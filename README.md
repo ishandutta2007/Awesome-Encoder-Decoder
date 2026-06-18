@@ -7,12 +7,12 @@ The **Encoder-Decoder architecture** is a foundational blueprint in AI designed 
 
 ## Architectural Overview
 
-| Model Category | Key Examples | Primary Modality & Input/Output | Core Mechanism |
-| :--- | :--- | :--- | :--- |
-| **Sequence-to-Sequence (NLP)** | **T5**, **BART** | Text → Text (Translation, Summarization) | **Transformers**: Full self-attention in encoder; causal masked self-attention + cross-attention in decoder. |
-| **Computer Vision / Segmentation** | **U-Net**, **SegNet** | Image → Image (Pixel-level Segmentation Mask) | **CNNs with Skip Connections**: Encoder downsamples to extract features; decoder upsamples to restore spatial resolution. |
-| **Multimodal / Vision-Language** | **BLIP-2**, **Flamingo**, **Whisper** | Image/Video/Audio → Text (Captioning, VQA, Audio Transcription) | **Cross-Attention Bottlenecks**: Modality-specific encoder extracts features; a Transformer decoder generates text conditioned on those features. |
-| **Generative Modeling** | **VAEs** (Variational Autoencoders) | Data → Continuous Latent Vector → Reconstructed Data | **Probabilistic Latents**: Encoder maps inputs to a probability distribution; decoder samples from it to generate new data variants. |
+| Model Category | Key Examples | Primary Modality & Input/Output | Core Mechanism | Year | First Paper |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Sequence-to-Sequence (NLP)** | **T5**, **BART** | Text → Text (Translation, Summarization) | **Transformers**: Full self-attention in encoder; causal masked self-attention + cross-attention in decoder. | 2014 | [Sutskever et al.](https://arxiv.org/abs/1409.3215) |
+| **Computer Vision / Segmentation** | **U-Net**, **SegNet** | Image → Image (Pixel-level Segmentation Mask) | **CNNs with Skip Connections**: Encoder downsamples to extract features; decoder upsamples to restore spatial resolution. | 2015 | [Badrinarayanan et al.](https://arxiv.org/abs/1511.00561) |
+| **Multimodal / Vision-Language** | **BLIP-2**, **Flamingo**, **Whisper** | Image/Video/Audio → Text (Captioning, VQA, Audio Transcription) | **Cross-Attention Bottlenecks**: Modality-specific encoder extracts features; a Transformer decoder generates text conditioned on those features. | 2014 | [Vinyals et al.](https://arxiv.org/abs/1411.4555) |
+| **Generative Modeling** | **VAEs** (Variational Autoencoders) | Data → Continuous Latent Vector → Reconstructed Data | **Probabilistic Latents**: Encoder maps inputs to a probability distribution; decoder samples from it to generate new data variants. | 2013 | [Kingma & Welling](https://arxiv.org/abs/1312.6114) |
 
 ---
 
